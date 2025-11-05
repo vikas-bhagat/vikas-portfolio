@@ -17,7 +17,7 @@ st.markdown("""
             [data-testid-"stAppViewContainer"]{
               background: linear-gradient(-45deg, #f8fbff, #ffffff, #e3f2fd, #f0f4f8);
               background-size: 400% 400%;
-              animation: gradientMove 12s ease infinite;
+             
               font-family: 'segoe UI', sans-serif;
               color: black;
             }
@@ -33,7 +33,7 @@ st.markdown("""
 [data-testid="stAppViewContainer"] {
   background: linear-gradient(-45deg, #d7e1ec, #ffffff, #e3f2fd, #d7e1ec);
   background-size: 400% 400%;
-  animation: gradientMove 12s ease infinite;
+  
   font-family: 'Segoe UI', sans-serif;
   padding: 0px !important;
 }

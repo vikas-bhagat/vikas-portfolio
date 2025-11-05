@@ -14,16 +14,7 @@ st.markdown("""
 <style>
 @keyframes gradientMove {
             
-            [data-testid-"stAppViewContainer"]{
-              background: linear-gradient(-45deg, #f8fbff, #ffffff, #e3f2fd, #f0f4f8);
-              background-size: 400% 400%;
-             
-              font-family: 'segoe UI', sans-serif;
-              color: black;
-            }
-            h2,h4,h5,h6,li,a,span,div {
-            color : black;
-            }
+          
 
   0% {background-position: 0% 50%;}
   50% {background-position: 100% 50%;}

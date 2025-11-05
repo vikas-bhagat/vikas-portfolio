@@ -246,11 +246,11 @@ st.markdown("</div>", unsafe_allow_html=True)
 # ----------------- RESUME -----------------
 st.markdown("<div id='resume' class='section'>", unsafe_allow_html=True)
 st.header("📄 Resume")
-with open("RESUME VIKAS.docx", "rb") as file:
+with open("vikas1 resume.pdf", "rb") as file:
     st.download_button(
         label="⬇ Download My Resume",
         data=file,
-        file_name="Vikas_Bhagat_Resume.docx",
+        file_name="Vikas_Bhagat_Resume.pdf",
         mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
     )
 st.markdown("</div>", unsafe_allow_html=True)

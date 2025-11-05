@@ -19,7 +19,10 @@ st.markdown("""
               background-size: 400% 400%;
               animation: gradientMove 12s ease infinite;
               font-family: 'segoe UI', sans-serif;
-              color: #444;
+              color: black;
+            }
+            h2,h4,h5,h6,li,a,span,div {
+            color : black;
             }
 
   0% {background-position: 0% 50%;}

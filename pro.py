@@ -13,6 +13,15 @@ st.set_page_config(
 st.markdown("""
 <style>
 @keyframes gradientMove {
+            
+            [data-testid-"stAppViewContainer"]{
+              background: linear-gradient(-45deg, #f8fbff, #ffffff, #e3f2fd, #f0f4f8);
+              background-size: 400% 400%;
+              animation: gradientMove 12s ease infinite;
+              font-family: 'segoe UI', sans-serif;
+              color: #003366;
+            }
+
   0% {background-position: 0% 50%;}
   50% {background-position: 100% 50%;}
   100% {background-position: 0% 50%;}
